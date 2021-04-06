@@ -101,3 +101,9 @@ body{
   height: 50%;
 
 }
+
+#container2 .GRUP3{
+  padding-top: 25%;
+  grid-row: 2/3;
+  grid-column: 3/5;
+}
