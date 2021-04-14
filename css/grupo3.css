@@ -48,34 +48,6 @@ body{
 
 }
 
-#grupo3 .inicio{
-  grid-row: 7/9;
-  grid-column: 2/4;
-  text-align: center;
-
-}
-
-#grupo3 .inicio img{
-  width: 30%;
-  height: 80%;
-  padding-top: 2%;
-
-}
-
-#grupo3 .logomhic{
-  grid-row: 7/9;
-  grid-column: 1/3;
-  text-align: center;
-  padding-right: 20%;
-}
-
-
-#grupo3 .barresmigra{
-  grid-row: 7/9;
-  grid-column: 4/6;
-  text-align: center;
-
-}
 
 #grupo3 .muro{
   grid-row: 5/6;
@@ -90,15 +62,43 @@ body{
 
 }
 
-#grupo2{
+#grupo3-2{
   display:grid;
   border: 1px solid red;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: calc(20vh - 10px) calc(5vh - 10px) calc(20vh - 10px) calc(10vh - 10px) calc(20vh - 10px) calc(10vh - 10px) calc(5vh - 10px) calc(10vh - 10px);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: calc(20vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(20vh - 10px);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   background-color: #ADBFF5;
   background-repeat: no-repeat;
   background-size: cover;
 
+}
+
+#grupo3-2 .barresmigra{
+  grid-row: 5/6;
+  grid-column: 4/6;
+  text-align: center;
+
+}
+
+#grupo3-2 .inicio{
+  grid-row: 5/6;
+  grid-column: 3/4;
+  text-align: center;
+
+}
+
+#grupo3-2 .inicio img{
+  width: 30%;
+  height: 80%;
+  padding-top: 2%;
+
+}
+
+#grupo3-2 .logomhic{
+  grid-row: 5/6;
+  grid-column: 1/3;
+  text-align: center;
+  padding-right: 20%;
 }
