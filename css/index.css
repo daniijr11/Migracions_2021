@@ -10,6 +10,7 @@ body{
 }
 
 
+
 #container{
   display:grid;
   border: 1px solid red;
@@ -23,8 +24,16 @@ body{
 
 }
 
+#container .header{
+top: 0;
+padding: 10px 10px;
+background-color: #111111;
+grid-column: 1/3;
+grid-row: 1/2;
+}
+
 #container .titulo{
-  grid-row: 2/3;
+  grid-row: 3/4;
   grid-column: 1/3;
   text-align: center;
 
