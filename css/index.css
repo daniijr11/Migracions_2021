@@ -9,11 +9,8 @@ body{
 
 }
 
-
-
 #container{
   display:grid;
-  border: 1px solid red;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: calc(20vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(20vh - 10px) calc(20vh - 10px);
   grid-column-gap: 10px;
@@ -33,9 +30,10 @@ grid-row: 1/2;
 }
 
 #container .titulo{
-  grid-row: 3/4;
+  grid-row: 1/2;
   grid-column: 2/5;
   text-align: center;
+  padding-top: 5%;
 
 }
 
@@ -46,35 +44,8 @@ grid-row: 1/2;
 
 }
 
-#container .instagram{
-  grid-row: 5/6;
-  grid-column: 4/5;
-  padding-top: 20%;
-  padding-right: 60%;
-}
-
-#container .instagram img{
-  width: 55%;
-  height: 60%;
-
-}
-
-#container .youtube{
-  grid-row: 5/6;
-  grid-column: 3/4;
-  padding-top: 20%;
-  padding-left: 80%;
-}
-
-#container .youtube img{
-  width: 100%;
-  height: 60%;
-
-}
-
 #container2{
   display:grid;
-  border: 1px solid red;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: calc(10vh - 10px) calc(60vh - 10px) calc(10vh - 10px) calc(20vh - 10px);
   grid-column-gap: 10px;
@@ -105,6 +76,18 @@ grid-row: 1/2;
   text-align: center;
 
 }
+#container2 .carousel{
+  grid-row: 2/3;
+  grid-column: 2/6;
+  text-align: center;
+
+}
+
+#container2 .carouselimg{
+  width: 50%;
+  height: 50%;
+  
+  }
 
 #container2 .flechaizq{
   padding-top: 100%;
