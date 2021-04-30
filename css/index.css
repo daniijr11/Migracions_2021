@@ -9,6 +9,102 @@ body{
 
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}.dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content4 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.slider {
+width: 50%;
+margin: inherit;
+overflow: hidden;
+  position: right;
+}
+
+.slider ul {
+display: flex;
+padding: 0;
+width: 400%;
+
+animation: cambio 10s infinite alternate linear;
+}
+
+.slider li {
+width: 100%;
+list-style: none;
+}
+
+.slider img {
+width: 100%;
+}
+
 #container{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -19,6 +115,11 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 
+}
+
+#container .fotos{
+grid-column: 1/4;
+grid-row: 2/5;
 }
 
 #container .header{
@@ -33,7 +134,7 @@ grid-row: 1/2;
   grid-row: 1/2;
   grid-column: 2/5;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 3%;
 
 }
 
@@ -41,6 +142,12 @@ grid-row: 1/2;
   grid-row: 1/2;
   grid-column: 1/2;
   text-align: center;
+
+}
+
+#container .logobarres img{
+  width: 60%;
+  height: 100%;
 
 }
 
